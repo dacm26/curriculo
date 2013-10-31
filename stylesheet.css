@@ -1,0 +1,113 @@
+.left{
+	position: relative;
+	float: left;
+	width: 75%;
+	height: 1000px;
+	background-color: #F0F8FF;
+	margin-bottom: 10px;
+	border-radius:5px;
+	display: inline;
+}
+
+.right{
+	border-radius:5px;
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 1035px;
+	background-color: #ADD8E6;
+	margin-bottom: 10px;
+}
+
+#foto{
+	border-radius:5px;
+	border: double #87CEEB;
+	width: 150px;
+	height: 220px;
+	float:left;
+	margin-left: 25px;
+	margin-top: 55px;
+	display:inline;
+	clear: left;
+}
+
+#personal_info{
+	border-radius:5px;
+	border: double #87CEEB;
+	width: 650px;
+	height: 270px;
+	float:right;
+	margin-top: 25px;
+	margin-right: 100px;
+	display:inline;
+}
+
+#pi{
+	margin-left: 18px;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+#year{
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight:bold;
+}
+
+#data{
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight:italic;
+}
+
+a{
+	text-decoration:none; 
+}
+
+a:hover {
+	font-weight: bold;
+}
+a:visited{
+	color: black;
+}
+
+a:link{
+	color: black;
+}
+
+#fb {
+	position: relative;
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	border: 5px dashed #6495ED;
+	margin-top: 100px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+#tw {
+	position: relative;
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	border: 5px dashed #000000;
+	margin-top: 150px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+#gplus {
+	position: relative;
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	border: 5px dashed #8B0000;
+	margin-top: 130px;
+	text-align: center;
+	margin-left: 10%;
+}
